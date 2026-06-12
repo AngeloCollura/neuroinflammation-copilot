@@ -75,6 +75,10 @@
     heart: '<path d="M12 20s-7-4.5-9-9a4.5 4.5 0 0 1 9-2 4.5 4.5 0 0 1 9 2c-2 4.5-9 9-9 9z"/>',
     leaf: '<path d="M5 19c0-8 6-13 14-13 0 8-6 13-14 13zM5 19c2-4 5-6 9-7"/>',
     alert: '<path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/>',
+    pulse: '<path d="M3 12h4l2 6 4-14 2 8h6"/>',
+    hand: '<path d="M7 11V5.5a1.5 1.5 0 0 1 3 0V10m0-.5V4.5a1.5 1.5 0 0 1 3 0V10m0-.5V6a1.5 1.5 0 0 1 3 0v7a6 6 0 0 1-12 0v-1"/>',
+    balance: '<path d="M12 4v16M6 20h12M5 7h14M5 7l-2 5h4zM19 7l-2 5h4z"/>',
+    brain: '<path d="M12 5a3 3 0 0 0-6 0 3 3 0 0 0-1 5 3 3 0 0 0 2 5 3 3 0 0 0 5 1 3 3 0 0 0 5-1 3 3 0 0 0 2-5 3 3 0 0 0-1-5 3 3 0 0 0-6 0M12 5v14"/>',
   };
   function ic(name, size, cls) {
     var s = el("span", cls ? { class: cls } : {});
@@ -792,6 +796,22 @@
   }
 
   // ======================================================================================
+  // SCREEN: TEST (Digital EDSS self-assessment modules — patient-friendly)
+  // ======================================================================================
+  function screenTest() {
+    if (!global.PatientEDSS) {
+      return el("div", { class: "wrap" }, [el("div", { class: "card" }, ["Modulo test non disponibile."])]);
+    }
+    // Bridge the app's helpers/state into the self-contained EDSS module so it matches
+    // the look & feel and can close the loop into the visit reminder.
+    return global.PatientEDSS.screen({
+      el: el, ic: ic, icHtml: icHtml, spark: spark,
+      toast: toast, addVisit: addVisit, goTab: goTab,
+      getPid: function () { return S.pid; }, firstName: firstName,
+    });
+  }
+
+  // ======================================================================================
   // SEED, RENDER, TABS, INIT
   // ======================================================================================
   function seedVisitItems() {
@@ -805,6 +825,7 @@
   var TABS = [
     { k: "home", l: "Oggi", i: "home" },
     { k: "diario", l: "Diario", i: "diary" },
+    { k: "test", l: "Test", i: "pulse" },
     { k: "assistente", l: "Assistente", i: "chat" },
     { k: "andamenti", l: "Andamenti", i: "chart" },
     { k: "visita", l: "Visita", i: "visit" },
@@ -815,6 +836,7 @@
     clear(inner);
     if (S.tab === "home") inner.appendChild(screenHome());
     else if (S.tab === "diario") inner.appendChild(screenDiario());
+    else if (S.tab === "test") inner.appendChild(screenTest());
     else if (S.tab === "assistente") inner.appendChild(screenAssistente());
     else if (S.tab === "andamenti") inner.appendChild(screenAndamenti());
     else if (S.tab === "visita") inner.appendChild(screenVisita());

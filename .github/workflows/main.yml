@@ -24,10 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Upload app/ as Pages artifact
+      - name: Upload site (landing + app/ + n2/ + paziente/) as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment

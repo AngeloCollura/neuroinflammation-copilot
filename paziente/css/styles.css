@@ -436,3 +436,54 @@ textarea.pf:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0
   border: 2px solid rgba(255,255,255,.4); border-top-color: #fff; border-radius: 50%; animation: rot .7s linear infinite;
 }
 @keyframes rot { to { transform: rotate(360deg); } }
+
+/* ===================================================================== TEST (EDSS) == */
+.edss-test { cursor: pointer; transition: transform .06s, box-shadow .14s; }
+.edss-test:active { transform: translateY(1px); }
+.edss-right { margin-left: auto; flex: none; display: grid; place-items: center; }
+.edss-right svg { display: block; }
+.edss-go { color: var(--mut2); }
+
+.edss-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.edss-back {
+  display: inline-flex; align-items: center; gap: 5px; background: none; border: none;
+  color: var(--mut); font-size: 13px; font-weight: 640; padding: 4px 2px;
+}
+.edss-back svg { width: 16px; height: 16px; transform: rotate(180deg); }
+.edss-title { margin-left: auto; display: flex; align-items: center; gap: 8px; font-weight: 760; font-size: 15px; }
+.edss-title .ric { width: 32px; height: 32px; border-radius: 10px; display: grid; place-items: center; }
+.edss-title .ric svg { width: 18px; height: 18px; }
+
+.edss-timer { text-align: center; margin: 22px 0 16px; }
+.edss-count { font-size: 56px; font-weight: 820; color: var(--brand-deep); letter-spacing: -.02em; line-height: 1; font-variant-numeric: tabular-nums; }
+.edss-sub { font-size: 13.5px; color: var(--mut); margin-top: 8px; }
+.edss-phaselbl { text-align: center; font-weight: 720; font-size: 14.5px; color: var(--ink-2); margin: 4px 0 8px; }
+
+/* tapping board */
+.edss-tap { position: relative; height: 232px; background: var(--soft); border: 1px solid var(--line); border-radius: var(--r-lg); margin-top: 6px; overflow: hidden; }
+.edss-dot { position: absolute; top: 100px; width: 64px; height: 64px; border-radius: 50%; border: none; background: var(--line-2); transition: background .08s, transform .08s; }
+.edss-dot.on { background: linear-gradient(150deg, #1ba488, var(--brand-deep)); transform: scale(1.06); box-shadow: 0 6px 16px -6px rgba(15,102,85,.55); }
+
+/* sdmt */
+.edss-key { display: flex; flex-wrap: wrap; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-md); padding: 6px; margin-bottom: 6px; }
+.edss-keycell { width: 11.11%; text-align: center; padding: 3px 0; }
+.edss-keysym { font-size: 18px; line-height: 1.1; }
+.edss-keynum { font-size: 13px; font-weight: 760; color: var(--brand-deep); }
+.edss-prompt { text-align: center; font-size: 60px; line-height: 1; margin: 4px 0 12px; }
+.edss-pad { display: flex; flex-wrap: wrap; gap: 7px; }
+.edss-padbtn { width: calc(33.33% - 5px); aspect-ratio: 1.7; border-radius: 13px; border: 1.5px solid var(--line-2); background: var(--card); font-size: 24px; font-weight: 800; color: var(--ink); }
+.edss-padbtn:active { background: var(--brand-soft); border-color: var(--brand); }
+
+/* result */
+.edss-result { text-align: center; border-radius: var(--r-xl); padding: 22px 18px 18px; margin-bottom: 13px; border: 1px solid var(--line); background: var(--card); box-shadow: var(--shadow-sm); }
+.edss-result.good { background: var(--ok-soft); border-color: #b6e0c6; }
+.edss-result.warn { background: var(--care-soft); border-color: #ecd49a; }
+.edss-result.low { background: var(--warm-soft); border-color: #f0c8b6; }
+.edss-bigring svg { display: block; margin: 0 auto; }
+.edss-rlbl { font-size: 12.5px; color: var(--mut); font-weight: 620; margin-top: 4px; letter-spacing: .01em; }
+.edss-rmsg { font-size: 14px; color: var(--ink-2); margin-top: 10px; line-height: 1.5; }
+.edss-flag { display: inline-flex; align-items: center; gap: 6px; margin-top: 11px; font-size: 12.5px; font-weight: 700; color: var(--care); background: #fff; border: 1px solid #ecd49a; padding: 6px 11px; border-radius: 999px; }
+.edss-flag svg { width: 15px; height: 15px; }
+.edss-metric { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--soft-2); font-size: 13.5px; }
+.edss-metric:last-child { border-bottom: none; }
+.edss-metric strong { color: var(--brand-deep); }
