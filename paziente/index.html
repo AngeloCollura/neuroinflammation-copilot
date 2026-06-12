@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>L'app di Giulia · Patient Companion — Digital Neuro Hub 2026</title>
+  <meta name="description" content="Companion paziente per la sclerosi multipla — prototipo dimostrativo, dati sintetici, non per uso clinico." />
+  <meta name="theme-color" content="#11201c" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <div class="phone">
+      <span class="notch" aria-hidden="true"></span>
+
+      <header class="appbar">
+        <span class="ab-av" id="ab-av">G</span>
+        <div class="ab-txt">
+          <div class="ab-hi">Ciao 👋</div>
+          <div class="ab-name" id="ab-name">Giulia</div>
+        </div>
+        <button class="ab-info" id="ab-info" aria-label="Informazioni e sicurezza">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+        </button>
+      </header>
+
+      <div class="screen" id="screen">
+        <div id="screen-inner"><!-- per-tab content (populated by patient.js) --></div>
+      </div>
+
+      <nav class="tabbar" id="tabbar" aria-label="Navigazione"><!-- tabs (populated) --></nav>
+
+      <!-- Bottom sheet (info / safety / contacts / profile) -->
+      <div class="sheet-ov" id="sheet-ov" role="dialog" aria-modal="true">
+        <div class="sheet">
+          <button id="sheet-x" style="display:none"></button>
+          <div id="sheet-body"><!-- populated --></div>
+        </div>
+      </div>
+
+      <div id="toast" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <!-- Data + logic (local, no network) -->
+  <script src="data.js"></script>
+  <script src="js/llm.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/patient.js"></script>
+</body>
+</html>

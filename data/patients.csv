@@ -1,0 +1,15 @@
+patient_id,name,sex,age,ms_type,disease_years,diagnosis_date,current_dmt,dmt_class,months_on_dmt,adherence_pct,adherence_trend,nfl_url,gfap_url
+MS-0142,Giulia Rossi,F,34,RRMS,5,2021-06-11,Dimetilfumarato,orale,18,72,in calo,8.5,107.0
+MS-0098,Marco Bianchi,M,41,RRMS,8,2018-06-12,Ocrelizumab,alta_efficacia,30,100,stabile,9.3,119.0
+MS-0211,Anna Verdi,F,52,RRMS -> SPMS,17,2009-06-14,Siponimod,orale,14,96,stabile,10.5,136.0
+MS-0177,Luca Ferrari,M,29,RRMS,3,2023-06-11,Teriflunomide,orale,16,94,stabile,8.0,99.0
+MS-0203,Sofia Conti,F,38,RRMS,6,2020-06-11,Dimetilfumarato,orale,22,58,in calo,9.0,114.0
+MS-0119,Giorgio Marino,M,45,RRMS,11,2015-06-13,Natalizumab,alta_efficacia,40,100,stabile,9.8,125.0
+MS-0260,Elena Greco,F,36,RRMS,4,2022-06-11,Ofatumumab,alta_efficacia,20,98,stabile,8.8,111.0
+MS-0085,Paolo Rizzo,M,58,PPMS,9,2017-06-12,Ocrelizumab,alta_efficacia,26,100,stabile,11.2,146.0
+MS-0288,Chiara Costa,F,26,RRMS,1,2025-06-10,Ocrelizumab,alta_efficacia,3,100,stabile,7.7,95.0
+MS-0301,Davide Esposito,M,31,CIS,2,2024-06-10,Nessuno (sorveglianza),nessuno,0,100,stabile,8.2,103.0
+MS-0166,Martina Galli,F,43,RRMS,10,2016-06-12,Dimetilfumarato,orale,48,95,stabile,9.5,122.0
+MS-0072,Francesco Romano,M,61,SPMS,22,2004-06-15,Nessuno (sintomatico),nessuno,0,100,stabile,11.5,151.0
+MS-0245,Valentina Moretti,F,33,RRMS,4,2022-06-11,Dimetilfumarato,orale,28,97,stabile,8.4,106.0
+MS-0190,Alessandro Bruno,M,47,RRMS,12,2014-06-13,Glatiramer acetato,iniettabile,36,92,stabile,10.0,128.0

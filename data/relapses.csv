@@ -1,0 +1,8 @@
+patient_id,date,type,severity,trigger,recovery,note
+MS-0142,2023-12-11,relapse,moderata,nessuno,completo,"Neurite ottica dx, recupero completo"
+MS-0142,2026-05-19,pseudo_relapse_suspected,lieve,caldo,completo,"Peggioramento transitorio in giornata molto calda (fenomeno di Uhthoff), regredito in 36h"
+MS-0211,2021-12-11,relapse,moderata,nessuno,parziale,Ultima ricaduta acuta >4 anni fa
+MS-0177,2026-02-10,relapse,moderata,nessuno,parziale,"Ricaduta sensitivo-motoria arto inf. dx, recupero parziale"
+MS-0288,2026-01-11,relapse,grave,nessuno,parziale,"Esordio con mielite, recupero parziale"
+MS-0301,2025-04-06,relapse,lieve,nessuno,completo,"Episodio singolo (neurite ottica) >14 mesi fa, CIS"
+MS-0190,2026-05-23,pseudo_relapse_suspected,moderata,infezione_IVU,completo,"Peggioramento con febbre e infezione urinaria, regredito dopo antibiotico (pseudo-ricaduta)"

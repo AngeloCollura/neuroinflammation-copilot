@@ -1,0 +1,17 @@
+# OS / editor junk
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Claude Code machine state (the shareable agents/ and launch.json ARE kept)
+.claude/settings.local.json
+
+# Source / reference materials (event docs + third-party decks) — inputs, NOT needed to run
+# the prototype. Excluded by default to avoid republishing third-party material.
+/*.pdf
+/*.docx

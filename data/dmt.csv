@@ -1,0 +1,21 @@
+patient_id,drug,class,start_date,stop_date,months_total,status
+MS-0142,Dimetilfumarato,orale,2024-12-10,,18,in corso
+MS-0142,Interferone beta-1a,iniettabile,,,60,sospeso: scarsa tollerabilità
+MS-0098,Ocrelizumab,alta_efficacia,2023-12-11,,30,in corso
+MS-0098,Dimetilfumarato,orale,,,96,sospeso: attività di malattia
+MS-0211,Siponimod,orale,2025-04-11,,14,in corso
+MS-0211,Interferone beta-1a,iniettabile,,,200,sospeso: transizione progressiva
+MS-0211,Glatiramer acetato,iniettabile,,,60,sospeso: progressione
+MS-0177,Teriflunomide,orale,2025-02-09,,16,in corso
+MS-0203,Dimetilfumarato,orale,2024-08-11,,22,in corso
+MS-0119,Natalizumab,alta_efficacia,2023-02-10,,40,in corso
+MS-0119,Fingolimod,orale,,,36,sospeso: attività di malattia
+MS-0260,Ofatumumab,alta_efficacia,2024-10-10,,20,in corso
+MS-0085,Ocrelizumab,alta_efficacia,2024-04-11,,26,in corso
+MS-0288,Ocrelizumab,alta_efficacia,2026-03-11,,3,in corso
+MS-0301,Nessuno (sorveglianza),nessuno,,,0,in corso
+MS-0166,Dimetilfumarato,orale,2022-06-12,,48,in corso
+MS-0072,Nessuno (sintomatico),nessuno,,,0,in corso
+MS-0072,Interferone beta-1b,iniettabile,,,240,sospeso: transizione progressiva
+MS-0245,Dimetilfumarato,orale,2024-02-10,,28,in corso
+MS-0190,Glatiramer acetato,iniettabile,2023-06-12,,36,in corso

@@ -1,0 +1,31 @@
+patient_id,item,last_done,due_date,status
+MS-0142,RMN encefalo di follow-up,2026-05-07,2026-01-11,ok
+MS-0142,Emocromo + linfociti (DMF),2026-02-10,2026-07-05,in_scadenza
+MS-0142,Funzione epatica,2026-02-10,2026-07-05,in_scadenza
+MS-0098,RMN encefalo di follow-up,2026-05-11,2027-05-11,ok
+MS-0098,Immunoglobuline (pre-infusione),2026-05-01,2026-10-28,ok
+MS-0211,RMN encefalo di follow-up,2026-05-01,2027-05-01,ok
+MS-0211,OCT / valutazione cardiologica (S1P),2025-11-22,2026-05-21,scaduto
+MS-0177,RMN encefalo di follow-up,2026-04-26,2026-05-31,in_scadenza
+MS-0177,Funzione epatica (teriflunomide),2026-04-01,2026-06-30,in_scadenza
+MS-0203,Emocromo + linfociti (DMF),2025-11-22,2026-05-16,scaduto
+MS-0203,RMN encefalo di follow-up,2026-04-11,2027-04-06,ok
+MS-0119,Indice anticorpi anti-JCV,2025-11-02,2026-05-01,scaduto
+MS-0119,RMN encefalo (sorveglianza PML),2025-11-12,2026-05-11,scaduto
+MS-0119,Emocromo,2026-05-11,2026-08-09,ok
+MS-0260,RMN encefalo di follow-up,2026-05-16,2027-05-16,ok
+MS-0260,Immunoglobuline,2026-04-21,2026-10-18,ok
+MS-0085,RMN encefalo+midollo di follow-up,2026-05-06,2027-05-06,ok
+MS-0085,Immunoglobuline (pre-infusione),2026-04-26,2026-10-23,ok
+MS-0288,RMN encefalo di follow-up,2026-05-21,2026-11-17,ok
+MS-0288,Emocromo + Ig,2026-05-16,2026-08-14,ok
+MS-0301,RMN encefalo di follow-up,2026-04-21,2026-10-18,in_scadenza
+MS-0301,Bande oligoclonali / rivalutazione,2025-08-14,2026-08-14,ok
+MS-0166,RMN encefalo di follow-up,2026-05-01,2027-05-01,ok
+MS-0166,Emocromo + linfociti (DMF),2026-03-12,2026-06-15,in_scadenza
+MS-0072,Valutazione riabilitativa,2026-02-10,2026-08-09,ok
+MS-0072,RMN encefalo di follow-up,2026-04-11,2027-04-06,ok
+MS-0245,Emocromo + linfociti (DMF),2026-03-07,2026-06-10,in_scadenza
+MS-0245,RMN encefalo di follow-up,2026-04-01,2027-04-01,ok
+MS-0190,RMN encefalo di follow-up,2026-03-22,2027-03-22,ok
+MS-0190,Esame urine / urinocoltura (follow-up IVU),2026-05-23,2026-06-22,in_scadenza

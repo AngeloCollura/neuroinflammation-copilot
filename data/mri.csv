@@ -1,0 +1,30 @@
+patient_id,date,new_t2,enlarging_t2,gad_enhancing,prl,atrophy,note
+MS-0142,2024-01-16,2,0,1,0,stabile,"Attività pregressa, poi quiescenza"
+MS-0142,2025-05-06,0,0,0,0,stabile,Quadro stabile
+MS-0142,2026-05-07,1,0,0,0,stabile,"Nuova piccola lesione T2 periventricolare, non captante"
+MS-0098,2025-05-26,0,0,0,0,stabile,Stabile
+MS-0098,2026-05-11,0,0,0,0,stabile,"Stabile, NEDA radiologico"
+MS-0211,2025-04-16,0,0,0,3,lieve progressione,Nessuna nuova lesione; 3 PRL (lesioni croniche attive)
+MS-0211,2026-05-01,0,0,0,3,progressione,Assenza di attività focale; atrofia in progressione; PRL stabili
+MS-0177,2025-08-14,1,0,0,0,stabile,1 nuova lesione
+MS-0177,2026-04-26,2,1,2,0,stabile,2 nuove lesioni T2 + 2 captanti gadolinio: attività radiologica
+MS-0203,2025-06-15,0,0,0,0,stabile,Stabile
+MS-0203,2026-04-11,1,0,0,0,stabile,1 nuova piccola lesione T2 (in contesto di scarsa aderenza)
+MS-0119,2025-08-14,0,0,0,0,stabile,Stabile
+MS-0119,2025-11-12,0,0,0,0,stabile,Stabile
+MS-0260,2025-07-05,0,0,0,0,stabile,Stabile
+MS-0260,2026-05-16,0,0,0,0,stabile,NEDA radiologico
+MS-0085,2025-05-06,0,0,0,2,progressione,Atrofia progressiva
+MS-0085,2026-05-06,0,0,0,2,progressione,Nessuna attività focale; progressione di atrofia midollare
+MS-0288,2026-01-01,6,0,3,1,stabile,"Esordio: carico lesionale elevato, 3 captanti"
+MS-0288,2026-05-21,0,0,0,1,stabile,Dopo avvio alta efficacia: nessuna nuova attività
+MS-0301,2025-03-27,2,0,0,0,stabile,"2 lesioni, no disseminazione temporale iniziale"
+MS-0301,2026-04-21,0,0,0,0,stabile,"Stabile, sorveglianza"
+MS-0166,2025-06-15,0,0,0,0,stabile,Stabile
+MS-0166,2026-05-01,0,0,0,0,stabile,"Stabile, no nuove lesioni"
+MS-0072,2025-05-26,0,0,0,1,progressione,Atrofia
+MS-0072,2026-04-11,0,0,0,1,progressione,Progressione lenta
+MS-0245,2025-06-25,0,0,0,0,stabile,Stabile
+MS-0245,2026-04-01,0,0,0,0,stabile,Stabile
+MS-0190,2025-07-15,0,0,0,0,stabile,Stabile
+MS-0190,2026-03-22,0,0,0,0,stabile,Stabile

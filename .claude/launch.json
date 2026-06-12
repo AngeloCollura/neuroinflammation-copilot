@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "copilot",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "app"],
+      "port": 8123
+    },
+    {
+      "name": "copilot2",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8124", "--directory", "n2"],
+      "port": 8124
+    },
+    {
+      "name": "paziente",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8125", "--directory", "paziente"],
+      "port": 8125
+    }
+  ]
+}
